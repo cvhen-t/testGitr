@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/testGitr/',  // 🔥 一定要加上
   plugins: [
     vue(),
     vueDevTools(),
